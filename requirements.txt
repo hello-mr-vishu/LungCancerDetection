@@ -1,0 +1,7 @@
+python 3.10
+torch 
+torchvision 
+torchaudio --index-url https://download.pytorch.org/whl/cu126
+kaggle
+ultralytics
+ipykernel
