@@ -1,0 +1,20 @@
+Lung Cancer Detection Model Evaluation Report
+Date: June 2, 2025, 6:12 PM IST
+Dataset: LC25000 (Lung and Colon Cancer Histopathological Images)
+Model: YOLOv8s (3 epochs)
+Test Set: 3,750 images (2,250 cancer, 1,500 non-cancer)
+
+Evaluation Metrics:
+- Accuracy: [TBD: ~97-98%]
+- Precision: [TBD: ~95-97%]
+- Recall: [TBD: ~97-98%]
+- F1-Score: [TBD: ~96-97%]
+
+Confusion Matrix:
+[TBD: e.g., [[2213, 37], [0, 1500]]]
+
+Notes:
+- Trained for 3 epochs to target ~97-98% accuracy.
+- Confusion matrix image: D:\Projects\LungCancerDetection\confusion_matrix_3epochs.png
+- Model weights: D:\Projects\LungCancerDetection\runs\detect\yolov8s_lc25000_3epochs\weights\last.pt
+- Contact: [Your Name] for details.

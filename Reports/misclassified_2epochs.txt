@@ -1,0 +1,7 @@
+D:/Projects/LungCancerDetection/data/images/test\colonca1662.jpeg, True: Cancer, Pred: Non-Cancer
+D:/Projects/LungCancerDetection/data/images/test\lungaca2611.jpeg, True: Cancer, Pred: Non-Cancer
+D:/Projects/LungCancerDetection/data/images/test\lungaca4105.jpeg, True: Cancer, Pred: Non-Cancer
+D:/Projects/LungCancerDetection/data/images/test\lungn2281.jpeg, True: Non-Cancer, Pred: Cancer
+D:/Projects/LungCancerDetection/data/images/test\lungn3923.jpeg, True: Non-Cancer, Pred: Cancer
+D:/Projects/LungCancerDetection/data/images/test\lungn4194.jpeg, True: Non-Cancer, Pred: Cancer
+D:/Projects/LungCancerDetection/data/images/test\lungn688.jpeg, True: Non-Cancer, Pred: Cancer
