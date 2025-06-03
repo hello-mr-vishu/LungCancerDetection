@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environment
+.venv/
+
+# Environment configuration
+*.env
+
+# Kaggle API credentials
+kaggle.json
+
+# Datasets and archives
+datasets/
+*.zip
+*.tar.gz
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Model weights and large binaries
+*.pt
+*.pth
+*.h5
+yolov8n.pt
+
+# Training outputs and backups
+runs/
+backup_17epochs/
+backup_yc25000/
+backup_2epochs/
+
+# Prediction outputs
+predictions/
