@@ -1,7 +1,6 @@
 # Lung Cancer Detection with YOLOv8
 
 **Date:** June 2, 2025  
-**Author:** [Your Name]
 
 ---
 
