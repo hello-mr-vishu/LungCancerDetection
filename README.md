@@ -58,6 +58,8 @@ This project uses the YOLOv8 model to detect lung cancer from histopathological 
   `D:\Projects\LungCancerDetection\backup_17epochs\runs\detect\yolov8s_lc25000\weights\best.pt`
 
 ---
+### Results
+![Training Results](results.png)
 
 ## Predictions on New Images
 
