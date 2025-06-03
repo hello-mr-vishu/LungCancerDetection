@@ -39,10 +39,10 @@ datasets/
 yolov8n.pt
 
 # Training outputs and backups
-runs/
-backup_17epochs/
+# runs/
+# backup_17epochs/
 backup_yc25000/
-backup_2epochs/
+# backup_2epochs/
 
 # Prediction outputs
 predictions/
