@@ -1,0 +1,21 @@
+Lung Cancer Detection Model Evaluation Report
+Date: June 2, 2025
+Dataset: LC25000 (Lung and Colon Cancer Histopathological Images)
+Model: YOLOv8s
+Test Set: 3,750 images (2,250 cancer, 1,500 non-cancer)
+
+Evaluation Metrics:
+- Accuracy: 1.0000 (100%)
+- Precision: 1.0000 (100%)
+- Recall: 1.0000 (100%)
+- F1-Score: 1.0000 (100%)
+
+Confusion Matrix:
+[[2250,    0],  # Cancer: 2250 true positives, 0 false negatives
+ [   0, 1500]]  # Non-cancer: 0 false positives, 1500 true positives
+
+Notes:
+- No misclassified images found in the test set.
+- Confusion matrix image available at: D:\Projects\LungCancerDetection\confusion_matrix.png
+- Model weights: D:\Projects\LungCancerDetection\runs\detect\yolov8s_lc25000\weights\best.pt
+- Training logs: D:\Projects\LungCancerDetection\runs\detect\yolov8s_lc25000\results.csv

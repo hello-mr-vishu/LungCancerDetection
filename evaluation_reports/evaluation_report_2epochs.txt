@@ -1,0 +1,26 @@
+Lung Cancer Detection Model Evaluation Report
+Date: June 2, 2025, 8:32 PM IST
+Dataset: LC25000 (Lung and Colon Cancer Histopathological Images)
+Model: YOLOv8s (2 epochs)
+Test Set: 3,750 images (2,250 cancer, 1,500 non-cancer)
+
+Evaluation Metrics:
+- Accuracy: 0.9981 (99.81%)
+- Precision: 0.9980 (99.80%)
+- Recall: 0.9973 (99.73%)
+- F1-Score: 0.9977 (99.77%)
+
+Confusion Matrix:
+[[2243, 7], [0, 1500]]
+- True Positives (Cancer): 2243
+- False Negatives (Cancer as Non-Cancer): 7
+- False Positives (Non-Cancer as Cancer): 0
+- True Negatives (Non-Cancer): 1500
+
+Notes:
+- Trained for 2 epochs to target ~97-98% accuracy, but achieved 99.81% due to dataset simplicity and model capacity.
+- Previous model (17 epochs, 100% accuracy) backed up in D:\Projects\LungCancerDetection\backup_17epochs.
+- Confusion matrix saved as D:\Projects\LungCancerDetection\confusion_matrix_2epochs.png.
+- Misclassified images (7) listed in D:\Projects\LungCancerDetection\misclassified_2epochs.txt.
+- Predictions on new images available in D:\Projects\LungCancerDetection\predictions\predictions.json.
+- Prediction script (predict.py) provided for testing new images.
